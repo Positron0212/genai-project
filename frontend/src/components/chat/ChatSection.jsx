@@ -66,7 +66,7 @@ const ChatSection = ({ isOpen, setIsOpen, showSidebar }) => {
 
       const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API);
       const model = genAI.getGenerativeModel({
-        model: "tunedModels/mental-health-model-v343l4826azy",
+        model: "tunedModels/mental-2-zjoksaqc97v1",
       });
 
       const generationConfig = {
